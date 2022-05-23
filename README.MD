@@ -2,6 +2,6 @@
 
 ![](images/logo.png)
 
-![More info]([https://nettomarcos.github.io/restaurant/](https://nettomarcos.github.io/restaurant-css-framework/))
+ [More info]([https://nettomarcos.github.io/restaurant/](https://nettomarcos.github.io/restaurant-css-framework/))
 
 
