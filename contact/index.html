@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="images/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="row text-center text-uppercase bg-black border-bottom border-info">
+            <div class="col-lg-2 mt-5 "><a href="../menu/index.html"
+                    class="fs-3 text-white text-decoration-none">Menu</a></div>
+            <div class="col-lg-3 mt-5"><a href="../about/index.html" class="fs-3 text-white  text-decoration-none">About
+                    Us</a></div>
+            <div class="col-lg-2"><a href="../index.html"><img src="logo_transparent.png" alt="logo" width="150px"
+                        class="img-fluid logo"></a></div>
+            <div class="col-lg-2 mt-5"><a href="../gallery/index.html"
+                    class="fs-3 text-white text-decoration-none">Gallery</a></div>
+            <div class="col-lg-3 mt-5"><a href="index.html" class="fs-3 text-white text-decoration-none">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="row gap-2 justify-content-center my-5 ">
+            <div class="col-lg-10 mx-auto col-12 text-center mb-3 ">
+                <h1 class="mt-0 text-white">CONTACT US</h1>
+            </div>
+
+            <div class="container w-75">
+                <div class="row justify-content-center my-5">
+                    <div class="col-md-5 col-12">
+                        <div class="form-floating form-outline form-white mb-4">
+                            <input type="First-name" id="floatingFirstName" class="form-control"
+                                placeholder="First Name">
+                            <label for="floatingFirstName ">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="form-floating form-outline form-white mb-4">
+                            <input type="Last-name" id="floatingLastName" class="form-control" placeholder="Last Name">
+                            <label for="floatingLastName">Last Name</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="form-floating form-outline form-white mb-4">
+                            <input type="Email" id="floatingInput" class="form-control" placeholder="Email address">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-md-10">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+                    </div>
+
+                    <div class="text-center text-md-left my-5">
+                        <a class="btn btn-outline-light border-info" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-black text-center text-white">
+            <div class="container p-4">
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </section>
+ 
+                <section class="">
+                    <div class="row">
+
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0 row justify-content-center">
+                            <li class="col-lg-1">
+                                <a href="../index.html" class="text-white">Home</a>
+                            </li>
+                            <li class="col-lg-1">
+                                <a href="../menu/index.html"
+                                    class="text-white">Menu</a>
+                            </li>
+                            <li class="col-lg-1">
+                                <a href="../about/index.html"
+                                    class="text-white">About Us</a>
+                            </li>
+                            <li class="col-lg-1">
+                                <a href="../gallery/index.html"
+                                    class="text-white">Gallery</a>
+                            </li>
+                            <li class="col-lg-1">
+                                <a href="../contact/index.html"
+                                    class="text-white">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8d51c3a0e3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
